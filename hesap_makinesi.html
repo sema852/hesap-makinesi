@@ -2,125 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-
-
-    
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            width: 75px;
+            height: 50px;
+        }
+        button {
+            width: 100%;
+            height: 100%;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-
-
-<table border="1" width="300">
+    <table>
         <tr>
-            <td colspan="4" rowspan="6">
-                 
-          
-
-
-<table border="1" width="300" style>
-<tr>
-    <th colspan="4">
-         Hesap Makinesi
-    </th>
-</tr>
-</table>
-<br>
-
- <table border="1" width="300" >
-     
-
-      
-   
-  <tr>
-  <th colspan="3">
-  </th>
-  <th bgcolor="#00FFFF">
-      C
-  </th>
-  </tr>
-           
-  
-        <tr>
-            <td align="center"  bgcolor="#00FFFF">
-                1
+            <td colspan="4">
+                <input type="text" id="display" style="width: 100%; height: 50px; font-size: 18px;" disabled>
             </td>
-            <td align="center" bgcolor="#00FFFF">
-                2
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                3
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                /
-            </td>
-            
-        
         </tr>
         <tr>
-            <td align="center" bgcolor="#00FFFF">
-                4
-             </td>
-             <td align="center" bgcolor="#00FFFF">
-                5
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                6
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                -
-            </td>
-            
-            
+            <td colspan="3"></td>
+            <td bgcolor="#00FFFF"><button>C</button></td>
         </tr>
         <tr>
-            <td align="center" bgcolor="#00FFFF">
-                7
-             </td>
-             <td align="center" bgcolor="#00FFFF">
-                8
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                9
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                +
-            </td>
-            
-            
-            
+            <td bgcolor="#00FFFF"><button>1</button></td>
+            <td bgcolor="#00FFFF"><button>2</button></td>
+            <td bgcolor="#00FFFF"><button>3</button></td>
+            <td bgcolor="#00FFFF"><button>/</button></td>
         </tr>
         <tr>
-            <td align="center" bgcolor="#00FFFF">
-                .
-             </td>
-             <td align="center" bgcolor="#00FFFF">
-                0
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                =
-            </td>
-            <td align="center" bgcolor="#00FFFF">
-                *
-            </td>
-            
-            
-            
-        </tr> 
-       
-        
-        
-        
+            <td bgcolor="#00FFFF"><button>4</button></td>
+            <td bgcolor="#00FFFF"><button>5</button></td>
+            <td bgcolor="#00FFFF"><button>6</button></td>
+            <td bgcolor="#00FFFF"><button>-</button></td>
+        </tr>
+        <tr>
+            <td bgcolor="#00FFFF"><button>7</button></td>
+            <td bgcolor="#00FFFF"><button>8</button></td>
+            <td bgcolor="#00FFFF"><button>9</button></td>
+            <td bgcolor="#00FFFF"><button>+</button></td>
+        </tr>
+        <tr>
+            <td bgcolor="#00FFFF"><button>.</button></td>
+            <td bgcolor="#00FFFF"><button>0</button></td>
+            <td bgcolor="#00FFFF"><button>=</button></td>
+            <td bgcolor="#00FFFF"><button>*</button></td>
+        </tr>
     </table>
-    
-         </td>
-        </tr>
-
-     </table>
-
 </body>
 </html>
